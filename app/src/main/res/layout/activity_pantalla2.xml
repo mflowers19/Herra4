@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Pantalla2">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="426dp"
+        android:layout_height="724dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="126dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/logo" />
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="ELECCIONES A RECTOR"
+                    android:textAlignment="textStart"
+                    android:textColor="#252323"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Universidad Tecnológica de Panamá "
+                android:textAlignment="center"
+                android:textColorHint="#656262"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/r1"
+                android:layout_width="252dp"
+                android:layout_height="207dp"
+                android:text="Candidato1"
+                android:translationX="200dp" />
+
+            <RadioButton
+                android:id="@+id/r2"
+                android:layout_width="match_parent"
+                android:layout_height="226dp"
+                android:text="Candidato2"
+                android:translationX="200dp" />
+
+            <RadioButton
+                android:id="@+id/r3"
+                android:layout_width="match_parent"
+                android:layout_height="213dp"
+                android:text="Candidato3"
+                android:translationX="200dp" />
+
+            <RadioButton
+                android:id="@+id/r4"
+                android:layout_width="match_parent"
+                android:layout_height="227dp"
+                android:text="Candidato4"
+                android:translationX="200dp" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="86dp"
+                android:text="VOTAR" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
