@@ -15,6 +15,11 @@ public class Pantalla2 extends AppCompatActivity {
     RadioButton r1, r2, r3 ,r4;
     Button button;
 
+    //float votoc1 = 0;
+    //float votoc2 = 0;
+   // float votoc3 = 0;
+    //float votoc4 = 0;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -31,36 +36,32 @@ public class Pantalla2 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 if (r1.isChecked() == true) {
-                    float votoc1 = 0;
-                    votoc1 = votoc1 + 1;
+                    VariablesGlobales.votoc1 =  VariablesGlobales.votoc1 + 1;
+
                     Intent intent = new Intent(getApplicationContext(), Pantalla3.class);
-                    //intent.putExtra("C1", votoc1);
+                    intent.putExtra("C1",  VariablesGlobales.votoc1);
                     startActivity(intent);
                 }
 
 
                 if (r2.isChecked() == true) {
-                   // float votoc2 = 0;
-                   // votoc2 = votoc2 + 1;
+                    VariablesGlobales.votoc2 =  VariablesGlobales.votoc2 + 1;
                     Intent intent = new Intent(getApplicationContext(), Pantalla3.class);
-                    //intent.putExtra("C2", votoc2);
-
+                    intent.putExtra("C2",  VariablesGlobales.votoc2);
                     startActivity(intent);
                 }
 
                 if (r3.isChecked() == true) {
-                    //float votoc1 = 0;
-                    // votoc1 = votoc1 + 1;
+                    VariablesGlobales.votoc3 =  VariablesGlobales.votoc3 + 1;
                     Intent intent = new Intent(getApplicationContext(), Pantalla3.class);
-                    //intent.putExtra("C1", votoc1);
+                    intent.putExtra("C3",  VariablesGlobales.votoc3);
                     startActivity(intent);
                 }
 
                 if (r4.isChecked() == true) {
-                    //float votoc1 = 0;
-                    // votoc1 = votoc1 + 1;
+                    VariablesGlobales.votoc4 =  VariablesGlobales.votoc4 + 1;
                     Intent intent = new Intent(getApplicationContext(), Pantalla3.class);
-                    //intent.putExtra("C1", votoc1);
+                    intent.putExtra("C4",  VariablesGlobales.votoc4);
                     startActivity(intent);
                 }
                 else {
