@@ -9,7 +9,7 @@ import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.RadioButton;
 
-public class Pantalla2 extends AppCompatActivity {
+public class    Pantalla2 extends AppCompatActivity {
 
     RadioButton r1, r2, r3 ,r4;
     Button button;
