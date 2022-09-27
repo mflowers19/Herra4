@@ -3,11 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/EDDIE FLOREZ/AndroidStudioProjects/Herra4_Proyecto1/app/src/main/res/layout/activity_main.xml" value="0.264" />
-        <entry key="..\:/Users/EDDIE FLOREZ/AndroidStudioProjects/Herra4_Proyecto1/app/src/main/res/layout/activity_main2.xml" value="0.2210144927536232" />
-        <entry key="..\:/Users/EDDIE FLOREZ/AndroidStudioProjects/Herra4_Proyecto1/app/src/main/res/layout/activity_pantalla2.xml" value="0.4" />
-        <entry key="..\:/Users/EDDIE FLOREZ/AndroidStudioProjects/Herra4_Proyecto1/app/src/main/res/layout/activity_pantalla3.xml" value="0.2" />
-        <entry key="..\:/Users/EDDIE FLOREZ/AndroidStudioProjects/Herra4_Proyecto1/app/src/main/res/layout/activity_pantalla_salida.xml" value="0.21920289855072464" />
+        <entry key="..\:/Users/EDDIE FLOREZ/AndroidStudioProjects/Herra4_Proyecto1/app/src/main/res/layout/activity_main.xml" value="0.2210144927536232" />
+        <entry key="..\:/Users/EDDIE FLOREZ/AndroidStudioProjects/Herra4_Proyecto1/app/src/main/res/layout/activity_pantalla2.xml" value="0.2210144927536232" />
+        <entry key="..\:/Users/luiss/AndroidStudioProjects/Herra4/app/src/main/res/layout/activity_pantalla3.xml" value="0.2296875" />
       </map>
     </option>
   </component>

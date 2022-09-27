@@ -28,19 +28,10 @@ public class Pantalla3 extends AppCompatActivity {
 
 
 
-            DecimalFormat df = new DecimalFormat(".00");
-            DecimalFormat df1 = new DecimalFormat("");
 
-            Intent intent = getIntent();
-            Bundle extras=getIntent().getExtras();
-            float Votosc1 = intent.getFloatExtra("C1", 0);
-            float Votosc2 = intent.getFloatExtra("C2", 0);
-            float Votosc3 = intent.getFloatExtra("C3", 0);
-
-
-            c1.setText("Total de votos= "+df1.format(Votosc1));
-            c2.setText("Total de votos= "+df1.format(Votosc2));
-            c3.setText("Total de votos= "+df1.format(Votosc3));
+            c1.setText("Total de votos= "+VariablesGlobales.votoc1);
+            c2.setText("Total de votos= "+VariablesGlobales.votoc2);
+            c3.setText("Total de votos= "+VariablesGlobales.votoc3);
 
             button.setOnClickListener(new View.OnClickListener() {
                 @Override

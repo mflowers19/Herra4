@@ -14,7 +14,6 @@ public class MainActivity extends AppCompatActivity {
     EditText cedula;
     Button botonlogin;
 
-    String[] eliminar = null;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
