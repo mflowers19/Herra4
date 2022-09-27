@@ -46,38 +46,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.212" />
 
-    <ImageView
-        android:id="@+id/imageView5"
-        android:layout_width="101dp"
-        android:layout_height="93dp"
-        android:layout_marginStart="74dp"
-        android:layout_marginTop="309dp"
-        android:layout_marginEnd="236dp"
-        android:layout_marginBottom="329dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/candidato" />
-
-    <ImageView
-        android:id="@+id/imageView7"
-        android:layout_width="101dp"
-        android:layout_height="105dp"
-        android:layout_marginStart="74dp"
-        android:layout_marginTop="503dp"
-        android:layout_marginEnd="236dp"
-        android:layout_marginBottom="123dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/candidato" />
-
     <RadioGroup
         android:id="@+id/radioGroup5"
         android:layout_width="wrap_content"
@@ -86,7 +54,7 @@
         android:layout_marginTop="216dp"
         android:layout_marginEnd="27dp"
         android:layout_marginBottom="123dp"
-        android:translationX="-30dp"
+        android:translationX="-50dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -98,42 +66,21 @@
             android:id="@+id/r1"
             android:layout_width="match_parent"
             android:layout_height="93dp"
-            android:text="Candidato1" />
+            android:text="Vivian Valenzuela" />
 
         <RadioButton
             android:id="@+id/r2"
             android:layout_width="match_parent"
             android:layout_height="93dp"
-            android:text="Candidato2" />
+            android:text="Omar Aizpurua" />
 
         <RadioButton
             android:id="@+id/r3"
             android:layout_width="match_parent"
             android:layout_height="102dp"
-            android:text="Candidato3" />
+            android:text="Martin Candanedo" />
 
-        <RadioButton
-            android:id="@+id/r4"
-            android:layout_width="match_parent"
-            android:layout_height="104dp"
-            android:text="Candidato4" />
     </RadioGroup>
-
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="101dp"
-        android:layout_height="89dp"
-        android:layout_marginStart="76dp"
-        android:layout_marginTop="216dp"
-        android:layout_marginEnd="234dp"
-        android:layout_marginBottom="426dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/candidato" />
 
     <TextView
         android:id="@+id/textView5"
@@ -148,33 +95,17 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.262" />
 
-    <ImageView
-        android:id="@+id/imageView6"
-        android:layout_width="100dp"
-        android:layout_height="102dp"
-        android:layout_marginStart="74dp"
-        android:layout_marginTop="401dp"
-        android:layout_marginEnd="237dp"
-        android:layout_marginBottom="228dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/candidato" />
-
     <Button
         android:id="@+id/button"
-        android:layout_width="98dp"
-        android:layout_height="57dp"
+        android:layout_width="126dp"
+        android:layout_height="67dp"
         android:text="VOTAR"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.951" />
+        app:layout_constraintVertical_bias="0.838" />
 
     <ImageView
         android:id="@+id/imageView8"
@@ -187,4 +118,39 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.009"
         app:srcCompat="@drawable/logou" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="98dp"
+        android:layout_height="87dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.236"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.335"
+        app:srcCompat="@drawable/c1" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="112dp"
+        android:layout_height="99dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.224"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/c2" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="82dp"
+        android:layout_height="99dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.252"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.667"
+        app:srcCompat="@drawable/c3" />
 </androidx.constraintlayout.widget.ConstraintLayout>

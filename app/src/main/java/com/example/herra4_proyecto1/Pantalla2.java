@@ -12,13 +12,8 @@ import android.widget.Toast;
 
 public class Pantalla2 extends AppCompatActivity {
 
-    RadioButton r1, r2, r3 ,r4;
+    RadioButton r1, r2, r3;
     Button button;
-
-    //float votoc1 = 0;
-    //float votoc2 = 0;
-   // float votoc3 = 0;
-    //float votoc4 = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,15 +24,13 @@ public class Pantalla2 extends AppCompatActivity {
         r1= findViewById(R.id.r1);
         r2= findViewById(R.id.r2);
         r3= findViewById(R.id.r3);
-        r4= findViewById(R.id.r4);
 
 
-        button.setOnClickListener(new View.OnClickListener() {
+       button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 if (r1.isChecked() == true) {
                     VariablesGlobales.votoc1 =  VariablesGlobales.votoc1 + 1;
-
                     Intent intent = new Intent(getApplicationContext(), Pantalla3.class);
                     intent.putExtra("C1",  VariablesGlobales.votoc1);
                     startActivity(intent);
@@ -58,14 +51,7 @@ public class Pantalla2 extends AppCompatActivity {
                     startActivity(intent);
                 }
 
-                if (r4.isChecked() == true) {
-                    VariablesGlobales.votoc4 =  VariablesGlobales.votoc4 + 1;
-                    Intent intent = new Intent(getApplicationContext(), Pantalla3.class);
-                    intent.putExtra("C4",  VariablesGlobales.votoc4);
-                    startActivity(intent);
-                }
-                else {
-
+                if (r1.isChecked()==false && r2.isChecked() == false && r3.isChecked()==false){
                     Toast.makeText(getApplicationContext(), "Debe seleccionar un candidato", Toast.LENGTH_SHORT).show();
                 }
 
