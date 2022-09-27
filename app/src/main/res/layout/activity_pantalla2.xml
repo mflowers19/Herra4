@@ -80,6 +80,12 @@
             android:layout_height="102dp"
             android:text="Martin Candanedo" />
 
+        <RadioButton
+            android:id="@+id/r4"
+            android:layout_width="match_parent"
+            android:layout_height="102dp"
+            android:text="Voto en Blanco" />
+
     </RadioGroup>
 
     <TextView
@@ -105,7 +111,7 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.838" />
+        app:layout_constraintVertical_bias="0.939" />
 
     <ImageView
         android:id="@+id/imageView8"
@@ -153,4 +159,16 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.667"
         app:srcCompat="@drawable/c3" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="98dp"
+        android:layout_height="87dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.236"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.809"
+        app:srcCompat="@drawable/candidato" />
 </androidx.constraintlayout.widget.ConstraintLayout>

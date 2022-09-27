@@ -14,7 +14,7 @@ import java.text.DecimalFormat;
 public class Pantalla3 extends AppCompatActivity {
         Button button;
 
-        TextView c1, c2, c3;
+        TextView c1, c2, c3, vb;
 
         @Override
         protected void onCreate(Bundle savedInstanceState) {
@@ -25,13 +25,15 @@ public class Pantalla3 extends AppCompatActivity {
             c1 = findViewById(R.id.c1);
             c2 = findViewById(R.id.c2);
             c3 = findViewById(R.id.c3);
+            vb= findViewById(R.id.vb);
 
 
+            c1.setText("Total de votos= "+VariablesGlobales.votoc1/ 0.4 +"%");
+            c2.setText("Total de votos= "+VariablesGlobales.votoc2/ 0.4 +"%");
+            c3.setText("Total de votos= "+VariablesGlobales.votoc3/ 0.4 +"%");
+            vb.setText("Total de votos= "+VariablesGlobales.votoB/ 0.4 +"%");
 
 
-            c1.setText("Total de votos= "+VariablesGlobales.votoc1);
-            c2.setText("Total de votos= "+VariablesGlobales.votoc2);
-            c3.setText("Total de votos= "+VariablesGlobales.votoc3);
 
             button.setOnClickListener(new View.OnClickListener() {
                 @Override
